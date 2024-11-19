@@ -1,16 +1,16 @@
 import React from "react";
 
 const Toolbar = () => { 
-    const a = 5;
-    const d = 90;
+    const f = 5986;
+    const u = 96590;
     
-    const sum = (g, h) => {
-        return g + h;
+    const division = (g, h) => {
+        return g / h;
     }
-
+    
     return(
         <div> 
-            <h1>{sum(a,d)}</h1>
+            <h1>{division(f,u)} </h1>
         </div>
     )
 }
